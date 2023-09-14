@@ -10,7 +10,7 @@ const Navbar = () => {
             <h3>Add Products</h3>
             <h3>Your Products</h3>
         </div>
-        <div style={{display:"flex",width:"20%",justifyContent:"space-between",cursor:"pointer"}}>
+        <div style={{display:"flex",width:"25%",justifyContent:"space-between",cursor:"pointer"}}>
             <h4>Cart</h4>
             <h4>Profile</h4>
             <h4 onClick={()=>router('/login')}>Login/Register</h4>
